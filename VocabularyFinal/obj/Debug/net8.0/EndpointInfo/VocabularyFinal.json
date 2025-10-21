@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "VocabularyFinal",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Flashcards": {
+      "get": {
+        "tags": [
+          "Flashcards"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Flashcards/by-group/{groupId}": {
+      "get": {
+        "tags": [
+          "Flashcards"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
