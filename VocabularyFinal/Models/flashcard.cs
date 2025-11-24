@@ -1,28 +1,39 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace VocabularyFinal.Models;
 
-public partial class flashcard
+[Table("flashcards")]
+public partial class Flashcard
 {
     [Key]
-    public Guid id { get; set; }
+    [Column("id")]
+    public Guid Id { get; set; }
 
-    public Guid? group_id { get; set; }
+    [Column("group_id")]
+    public Guid GroupId { get; set; }
 
+    [Column("english_word")]
     [StringLength(100)]
-    public string english_word { get; set; } = null!;
+    public string EnglishWord { get; set; } = null!;
 
-    public string vietnamese_meaning { get; set; } = null!;
-
-    public string? example_sentence_en { get; set; }
-
-    public string? example_sentence_vi { get; set; }
-
+    [Column("phonetic")]
     [StringLength(100)]
-    public string? phonetic { get; set; }
+    public string? Phonetic { get; set; }
 
-    [ForeignKey("group_id")]
-    [InverseProperty("flashcards")]
-    public virtual vocab_group? group { get; set; }
+    [Column("vietnamese_meaning")]
+    public string? VietnameseMeaning { get; set; }
+
+    [Column("example_sentence_en")]
+    public string? ExampleSentenceEn { get; set; }
+
+    [Column("example_sentence_vi")]
+    public string? ExampleSentenceVi { get; set; }
+
+    [ForeignKey("GroupId")]
+    [InverseProperty("Flashcards")]
+    public virtual VocabGroup Group { get; set; } = null!;
 }

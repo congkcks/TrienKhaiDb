@@ -1,50 +1,76 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using VocabularyFinal.Data;
+using VocabularyFinal.Models;
 
 [ApiController]
 [Route("api/[controller]")]
 public class FlashcardsController : ControllerBase
 {
     private readonly LuyenTuVungDbContext _context;
+
     public FlashcardsController(LuyenTuVungDbContext context)
     {
         _context = context;
     }
 
-    [HttpGet]
+    [HttpGet("groups")]
     public async Task<IActionResult> GetGroups()
     {
-        var groups = await _context.vocab_groups
-            .Select(g => new {
-                g.id,
-                g.name,
-                g.type,
-                g.created_at,
-                FlashcardCount = g.flashcards.Count
+        var groups = await _context.VocabGroups
+            .Select(g => new
+            {
+                g.Id,
+                g.Name,
+                g.Type,
+                g.CreatedAt,
+                FlashcardCount = g.Flashcards.Count
             })
             .ToListAsync();
 
         return Ok(groups);
     }
-    [HttpGet("by-group/{groupId}")]
+
+    [HttpGet("by-group/{groupId:guid}")]
     public async Task<IActionResult> GetFlashcardsByGroup(Guid groupId)
     {
-        var flashcards = await _context.flashcards
-            .Where(f => f.group_id == groupId)
-            .Select(f => new {
-                f.id,
-                f.english_word,
-                f.vietnamese_meaning,
-                f.example_sentence_en,
-                f.example_sentence_vi,
-                f.phonetic
-            })
-            .ToListAsync();
+        var group = await _context.VocabGroups
+            .Include(g => g.Flashcards)
+            .FirstOrDefaultAsync(g => g.Id == groupId);
 
-        if (!flashcards.Any())
-            return NotFound(new { message = "Không có flashcard nào trong nhóm này." });
+        if (group == null)
+        {
+            return NotFound(new { message = "Không tìm thấy nhóm từ vựng." });
+        }
 
-        return Ok(flashcards);
+        if (!group.Flashcards.Any())
+        {
+            return Ok(new
+            {
+                groupId = group.Id,
+                groupName = group.Name,
+                total = 0,
+                data = new List<object>()
+            });
+        }
+
+        var flashcards = group.Flashcards
+            .Select(f => new
+            {
+                f.Id,
+                f.EnglishWord,
+                f.Phonetic,
+                f.VietnameseMeaning,
+                f.ExampleSentenceEn,
+                f.ExampleSentenceVi
+            });
+
+        return Ok(new
+        {
+            groupId = group.Id,
+            groupName = group.Name,
+            total = flashcards.Count(),
+            data = flashcards
+        });
     }
 }

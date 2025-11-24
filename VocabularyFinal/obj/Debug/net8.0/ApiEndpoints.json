@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "FlashcardsController",
-    "Method": "GetGroups",
-    "RelativePath": "api/Flashcards",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FlashcardsController",
     "Method": "GetFlashcardsByGroup",
     "RelativePath": "api/Flashcards/by-group/{groupId}",
     "HttpMethod": "GET",
@@ -23,6 +13,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlashcardsController",
+    "Method": "GetGroups",
+    "RelativePath": "api/Flashcards/groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

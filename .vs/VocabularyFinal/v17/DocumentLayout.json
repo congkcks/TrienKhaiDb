@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\controllers\\flashcardscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\controllers\\flashcardscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\models\\vocabgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\models\\vocabgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\data\\luyentuvungdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\data\\luyentuvungdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|c:\\users\\acer\\source\\repos\\vocabularyfinal\\vocabularyfinal\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CB6A9764-F2EF-4ACA-A165-AB1EFA2F6BF6}|VocabularyFinal\\VocabularyFinal.csproj|solutionrelative:vocabularyfinal\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +51,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "VocabGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Models\\VocabGroup.cs",
+              "RelativeDocumentMoniker": "VocabularyFinal\\Models\\VocabGroup.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Models\\VocabGroup.cs",
+              "RelativeToolTip": "VocabularyFinal\\Models\\VocabGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:48:46.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Flashcard.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Models\\Flashcard.cs",
+              "RelativeDocumentMoniker": "VocabularyFinal\\Models\\Flashcard.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Models\\Flashcard.cs",
+              "RelativeToolTip": "VocabularyFinal\\Models\\Flashcard.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:48:45.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LuyenTuVungDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
+              "RelativeDocumentMoniker": "VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
+              "RelativeToolTip": "VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:48:38.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Dockerfile",
               "RelativeDocumentMoniker": "VocabularyFinal\\Dockerfile",
@@ -59,52 +102,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Program.cs",
               "RelativeDocumentMoniker": "VocabularyFinal\\Program.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Program.cs",
               "RelativeToolTip": "VocabularyFinal\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T19:25:45.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FlashcardsController .cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Controllers\\FlashcardsController .cs",
               "RelativeDocumentMoniker": "VocabularyFinal\\Controllers\\FlashcardsController .cs",
               "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Controllers\\FlashcardsController .cs",
               "RelativeToolTip": "VocabularyFinal\\Controllers\\FlashcardsController .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T19:20:29.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "flashcard.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Models\\flashcard.cs",
-              "RelativeDocumentMoniker": "VocabularyFinal\\Models\\flashcard.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Models\\flashcard.cs",
-              "RelativeToolTip": "VocabularyFinal\\Models\\flashcard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T19:17:48.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LuyenTuVungDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
-              "RelativeDocumentMoniker": "VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\VocabularyFinal\\VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
-              "RelativeToolTip": "VocabularyFinal\\Data\\LuyenTuVungDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T19:17:09.396Z"
+              "WhenOpened": "2025-10-21T19:20:29.636Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -115,6 +135,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },
